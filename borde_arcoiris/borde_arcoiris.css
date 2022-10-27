@@ -1,0 +1,30 @@
+.container {
+    background: linear-gradient(to right, var(--cores-dancantes));
+    width: 250px;
+    height: 80px;
+    border-radius: 30px;
+    position: relative;
+    animation: coresDancantes 2s linear infinite;
+    background-color: rgb(65, 65, 231);
+    padding: 10px;
+}
+
+.box {
+    width: fill;
+    height: fill;
+    border-radius: 30px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    opacity: 70%;
+    padding: 25px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+@keyframes coresDancantes{
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
